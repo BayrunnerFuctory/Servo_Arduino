@@ -7,7 +7,7 @@
 #define catch0_in A4//サーボ掴みの2bit目   INPUT PIN番号A4
 #define horizon_out 3 //サーボ水平のOUTPUT PIN番号D3
 #define catch_out 11 //サーボ掴みのOUTPUT PIN番号D11
-
+#define led 10       //LED OUTPUT PIN番号D10
 // スタートDelay
 int STARTDELAY = 0; //通常時：0 テスト時：2
 
@@ -47,7 +47,7 @@ void loop()
   }
   else if (STARTDELAY == 2)
   {
-    test();
+//    test();
   }
 }
 
